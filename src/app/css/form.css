@@ -1,0 +1,21 @@
+.form-input {
+    @apply border border-slate-400 rounded px-2 py-1;
+}
+
+.form-checkbox {
+    @apply border border-slate-400;
+}
+
+label.text{
+    @apply flex flex-col gap-3;
+}
+
+label.checkbox{
+    @apply flex flex-row gap-2 items-center;
+}
+
+label.required {
+    span{
+        @apply after:content-['*'] after:text-red-500;
+    }
+}

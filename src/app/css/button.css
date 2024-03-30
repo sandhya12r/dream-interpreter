@@ -1,0 +1,7 @@
+.btn {
+    @apply border border-slate-400 rounded px-2 py-1 capitalize font-medium;
+}
+
+.btn-primary {
+    @apply border border-primary bg-primary rounded text-white hover:bg-primary-dark disabled:opacity-65;
+}
